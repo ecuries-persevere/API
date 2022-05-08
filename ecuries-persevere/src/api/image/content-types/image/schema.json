@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "images"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Id_image": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

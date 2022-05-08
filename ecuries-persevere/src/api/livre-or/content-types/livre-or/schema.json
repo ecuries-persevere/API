@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "livre_ors",
+  "info": {
+    "singularName": "livre-or",
+    "pluralName": "livre-ors",
+    "displayName": "LivreOr"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Id_article": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
