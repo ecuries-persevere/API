@@ -4,10 +4,11 @@
   "info": {
     "singularName": "stage",
     "pluralName": "stages",
-    "displayName": "stages"
+    "displayName": "stages",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

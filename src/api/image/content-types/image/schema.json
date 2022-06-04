@@ -4,18 +4,24 @@
   "info": {
     "singularName": "image",
     "pluralName": "images",
-    "displayName": "images"
+    "displayName": "images",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "Id_image": {
       "type": "uid"
     },
-    "name": {
-      "type": "string"
+    "src": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

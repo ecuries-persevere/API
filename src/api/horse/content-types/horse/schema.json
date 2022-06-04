@@ -8,32 +8,34 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string"
     },
-    "Id_horse": {
-      "type": "uid",
-      "required": false
-    },
     "race": {
       "type": "string"
     },
-    "sexe": {
-      "type": "enumeration",
-      "enum": [
-        "Mâle",
-        "Femelle"
-      ]
-    },
-    "age": {
-      "type": "integer"
-    },
     "date_entree": {
       "type": "date"
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "sexe": {
+      "type": "boolean"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

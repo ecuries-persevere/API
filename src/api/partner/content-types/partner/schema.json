@@ -4,10 +4,11 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "partners"
+    "displayName": "partners",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

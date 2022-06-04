@@ -4,10 +4,11 @@
   "info": {
     "singularName": "press",
     "pluralName": "presses",
-    "displayName": "press"
+    "displayName": "press",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

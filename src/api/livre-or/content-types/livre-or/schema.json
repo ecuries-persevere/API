@@ -4,10 +4,11 @@
   "info": {
     "singularName": "livre-or",
     "pluralName": "livre-ors",
-    "displayName": "LivreOr"
+    "displayName": "LivreOr",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

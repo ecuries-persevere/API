@@ -4,10 +4,11 @@
   "info": {
     "singularName": "module",
     "pluralName": "modules",
-    "displayName": "modules"
+    "displayName": "modules",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
